@@ -1,0 +1,149 @@
+/*---------------------------------------------
+    HEADER CSS START HERE
+---------------------------------------------*/
+body {overflow-x: hidden; font-family: 'Montserrat', sans-serif; }
+*{ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+a{ display: inline-block; }
+a:hover, a:focus, button:hover, button:focus{ outline: none; text-decoration: none; }
+img{max-width: 100%;}
+ul { list-style: none; margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6,p{ margin: 0; padding: 0; }
+
+/*---------------------------------------------
+    HEADER CSS START HERE
+---------------------------------------------*/
+.header-section {position: absolute; width: 100%; padding: 19px 0; background: rgba(0,0,0,0.5); z-index: 9; }
+
+/*---------------------------------------------
+    BANNER CSS START HERE
+---------------------------------------------*/
+.banner-section {padding: 165px 0 0px; background: url(../images/banner.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; }
+.banner-section .form-box {background: rgba(0,0,0,0.6); padding: 25px; }
+.banner-section .form-box .banner-form [class*="col-"] {padding: 0; }
+.banner-section .form-box .input-box {margin-bottom: 10px; }
+.banner-section .form-box .input-box label {font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 5px; }
+.banner-section .form-box .input-box .form-control {border: 2px solid #d6d6d6; border-radius: 0; height: 35px; font-size: 12px; font-weight: 500; color: #000000; padding-right: 40px; -webkit-appearance: none; -moz-appearance: none; background: #f3f3f3 url(../images/ddarrow.png) no-repeat center right 15px; }
+.banner-section .form-box .submitbtn {width: 100%; background: #990000; border: 0px; color: #fff; font-size: 20px; font-weight: 800; text-transform: uppercase; font-style: italic; height: 48px; margin-top: 10px; }
+.banner-section .form-box .submitbtn:hover {background: #9b7e30; }
+.banner-section .content-box h1 {font-size: 44px; font-weight: 800; color: #fff; line-height: 40px; margin-bottom: 20px; }
+.banner-section .content-box p {font-size: 18px; font-weight: 500; color: #fff; line-height: 30px; }
+.banner-section .container-fluid {border-top: 2px solid #9b7d0d; background: rgba(5,43,80,0.2); margin-top: 87px; padding-top: 20px; padding-bottom: 30px; }
+.banner-section .container-fluid .content-sec h2 {font-size: 21px; font-weight: 800; color: #fff; line-height: 25px; margin-bottom: 5px; }
+.banner-section .container-fluid .content-sec p {font-size: 14px; font-weight: 400; color: #fff; line-height: 22px; margin-bottom: 0px; max-width: 650px; }
+
+/*---------------------------------------------
+    DEGREES CSS START HERE
+---------------------------------------------*/
+.degrees-section {padding: 50px 0 55px; }
+.section-title h2 {font-size: 30px; font-weight: 600; color: #990000; line-height: 24px; margin-bottom: 20px; }
+.section-title p {font-size: 18px; font-weight: 300; color: #373737; line-height: 28px; margin-bottom: 20px; }
+.degrees-section .degrees-box {padding: 30px 20px; border: 1px solid transparent; background: url(../images/degree-bg.jpg) no-repeat; position: relative; z-index: 1; height: 230px; transition: all .3s ease-in-out; cursor: pointer; margin: 15px 0;}
+.degrees-section .degrees-box:hover {background: url(../images/degree-hover-bg.jpg) no-repeat; }
+.degrees-section .degrees-box h4 {font-size: 28px; font-weight: 600; color: #052b50; line-height: 33px; text-align: center; transition: all .3s ease-in-out; }
+.degrees-section .degrees-box:hover h4 {color: #fff; }
+.degrees-section .degrees-box::before {position: absolute; content: ''; top: 6px; right: 6px; bottom: 6px; left: 6px; border: 1px solid #5c8e99; transition: all .3s ease-in-out; z-index: -1; }
+.degrees-section .degrees-box:hover::before {border-color: rgba(255, 255, 255); }
+
+/*---------------------------------------------
+    Leadership CSS START HERE
+---------------------------------------------*/
+.leadership-section {padding: 50px 0 50px; background: #f7f7f7 url(../images/section-bg.png); background-repeat: no-repeat; background-position: center bottom; background-size: auto; }
+.leadership-section .section-title h2 {margin-bottom: 40px; }
+.leadership-section .leadership-box {padding: 20px 35px 30px; height: 100%; }
+.leadership-section [class*="col-"]:first-child, .leadership-section [class*="col-"]:last-child {border: 0; }
+.leadership-section [class*="col-"] {border-right: 1px solid #dadada; margin: 15px 0; }
+.leadership-section .leadership-box .icon {display: flex; justify-content: center; align-items: center; }
+.leadership-section .leadership-box .icon img {background: #052b50; border-radius: 50px; }
+.leadership-section .leadership-box h3 {font-size: 22px; font-weight: 700; color: #00274d; line-height: 34px; text-transform: uppercase; margin: 15px 0 5px; }
+.leadership-section .leadership-box p {font-size: 16px; font-weight: 300; color: #333333; line-height: 24px; }
+
+/*---------------------------------------------
+    Leadership CSS START HERE
+---------------------------------------------*/
+.cta-section {padding: 50px 0 45px; background: #052b50; }
+.cta-section h2 {font-size: 32px; font-weight: 700; color: #ffffff; line-height: 24px; margin-bottom: 15px; }
+.cta-section p {font-size: 14px; font-weight: 400; color: #ffffff; line-height: 22px; }
+
+/*---------------------------------------------
+    Content CSS START HERE
+---------------------------------------------*/
+.content-section {padding: 37px 0 30px; }
+.content-section p {font-size: 14px; font-weight: 400; color: #414141; line-height: 24px; padding-bottom: 20px; }
+
+/*---------------------------------------------
+    Footer CSS START HERE
+---------------------------------------------*/
+.footer-section {padding: 25px 0; background: #052b50; }
+.footer-section p {font-size: 12px; color: #cbcbcb; line-height: 1.5; }
+.footer-section p span {padding: 0 5px; }
+.footer-section p a {color: #cbcbcb; }
+.footer-section p a:hover {color: #ffffff; }
+
+
+
+@media (min-width: 1200px) {
+    .container { max-width: 1170px; }
+}
+@media (max-width: 1199px) {
+    .banner-section .content-box h1 { font-size: 36px; margin-bottom: 10px;}
+    .degrees-section .degrees-box {height: 185px; background-size: contain; }
+    .degrees-section .degrees-box:hover { background-size: contain; }
+    .degrees-section .degrees-box h4 { font-size: 25px; }
+    .leadership-section .leadership-box {padding: 20px 20px 30px; }
+}
+@media (max-width: 991px) {
+	.banner-section .content-box h1 { margin-top: 30px; text-align: center;}
+	.banner-section .content-box p { text-align: center;}
+    .section-title p br { display: none; }
+    .banner-section .container-fluid { margin-top: 40px; }
+    .banner-section .container-fluid .content-sec h2 { margin-top: 15px; }
+    .leadership-section .leadership-box {padding: 20px 0px 30px; }
+    .degrees-section .degrees-box {height: 290px; }
+    .leadership-section { padding: 30px 0 30px; }
+    .degrees-section {padding: 50px 0 35px; }
+    .footer-section *, .cta-section * {text-align: center; }
+    .cta-section {padding: 35px 0 35px;}
+    .footer-section .text-right p {margin-top: 5px; }
+    .content-section {padding: 30px 0 30px; }
+    .content-section p:last-child { padding-bottom: 0; }
+}
+@media (max-width: 767px) {
+    .container { max-width: 100%; }
+    .header-section { text-align: center; background: #000e1c;}
+    .banner-section {background: #052b50; padding: 128px 0 0px;}
+    .banner-section .content-box h1 {font-size: 32px; text-align: left; margin-top: 20px; }
+    .banner-section .content-box p {text-align: left; }
+    .banner-section .container-fluid {margin-top: 20px; padding-top: 25px; padding-bottom: 40px; }
+    .degrees-section {padding: 35px 0 30px; }
+    .section-title h2 { font-size: 26px; margin-bottom: 10px; }
+    .section-title p { font-size: 16px; line-height: 24px; }
+    .degrees-section .degrees-box { background-size: 100% 100%; }
+    .degrees-section .degrees-box:hover { background-size: 100% 100%; }
+    .leadership-section .section-title h2 { margin-bottom: 0; }
+    .leadership-section .leadership-box {padding: 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; }
+    .leadership-section .leadership-box .icon {width: 15%; }
+    .con {width: 67%; text-align: left; margin-left: 20px; }
+    .leadership-section [class*="col-"] {border-right: 0 !important; border-bottom: 1px solid #dadada; padding: 20px 15px; margin: 0; }
+    .leadership-section .leadership-box h3 {margin-top: 0; }
+    .cta-section p br { display: none; }
+}
+@media (max-width: 640px) {
+    .degrees-section .degrees-box {height: 230px; }
+}
+@media (max-width: 575px) {
+    .banner-section .content-box h1 { font-size: 27px; }
+    .banner-section .content-box p { font-size: 16px; line-height: 26px; }
+    .section-title h2 { line-height: 30px; }
+    .cta-section h2 { font-size: 27px; }
+}
+@media (max-width: 480px) {
+    .banner-section .content-box h1 {font-size: 22px; line-height: 28px; }
+    .banner-section .content-box p {font-size: 14px; line-height: 24px; }
+    .banner-section .container-fluid .content-sec h2 { font-size: 19px; }
+    .section-title h2 {font-size: 23px; line-height: 30px; }
+    .degrees-section [class*="col-"] { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; }
+    .leadership-section .leadership-box {display: block; }
+    .leadership-section .leadership-box .icon {width: 100%; }
+    .con { width: 100%; text-align: center; margin-left:0 ; }
+    .cta-section h2 {font-size: 24px; line-height: 30px; }
+}
